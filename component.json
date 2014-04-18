@@ -10,9 +10,9 @@
   "dependencies": {
     "poying/bind": "*",
     "youmeb/upload": "*",
-    "component/emitter": "^1.1.2",
-    "poying/inline-style": "~0.0.4",
-    "poying/inline-style-auto-prefix": "~0.0.0",
-    "component/classes": "^1.2.1"
+    "component/emitter": "*",
+    "poying/inline-style": "*",
+    "poying/inline-style-auto-prefix": "*",
+    "component/classes": "*"
   }
 }
