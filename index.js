@@ -55,6 +55,8 @@ proto.label = function (val) {
 };
 
 proto.upload = function () {
+  this.emit('beforeUpload');
+
   var mw = this.middleware;
   var ctx = upload(this.options.url)
     .files(this._input.files);
