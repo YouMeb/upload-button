@@ -13,6 +13,7 @@
   top: 0;
   width: 100%;
   height: 100%;
+  line-height: 2em;
 }
 
 .youmeb-upload-button-input {
@@ -34,6 +35,7 @@
   height: 100%;
   opacity: 0;
   transition: opacity .4s;
+  line-height: 2em;
 }
 
 .youmeb-upload-button.uploading .youmeb-upload-button-progress {
