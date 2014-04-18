@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="build/build.css">
+  <style>
+    .youmeb-upload-button {
+      background: #f5f5f5;
+    }
+
+    .youmeb-upload-button-progress {
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+  <script src="build/build.js"></script>
+  <script>
+    var uploadButton = require('upload-button');
+    var btn = new uploadButton();
+    document.body.appendChild(btn.el);
+  </script>
+</body>
+</html>
