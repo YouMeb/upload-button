@@ -34,6 +34,10 @@ proto.init = function (el) {
   this._input = createElement('input', 'youmeb-upload-button-input');
   this._progress = createElement('span', 'youmeb-upload-button-progress');
 
+  if (this.options.accept) {
+    this._input.setAttribute('accept', this.options.accept);
+  }
+
   el.appendChild(this._label);
   el.appendChild(this._input);
   el.appendChild(this._progress);
